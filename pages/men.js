@@ -221,7 +221,7 @@ Add to cart
     </footer>
     </body>
     <script async src="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.js" />
-    <div hidden id="snipcart" data-api-key="YTZkNjk1MmEtMDhkNC00ODE3LTkyZjctZDY4NjY0MzY0ZDQ4NjM3NzU5MDI4Mjg4Mzc3NTg4" />
+    <div hidden id="snipcart" data-api-key="ZGFmMWMzNjMtY2NhNC00MzRiLThjMDQtMDBhYTZkYzEzZDA5NjM5MTI0ODA3MDAzMTIwNzQ2" />
     <script src="mobile-dropdown.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>

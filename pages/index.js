@@ -83,11 +83,6 @@ export default function Home() {
               </Link>
             </h1>
 
-            <h1 className="title bg-gray-100 hover:bg-gray-200 padding-menu px-5 rounded hidden md:inline-block lg:inline-block xl:inline-block">
-              <Link href="/releases">
-                <a>New Releases</a>
-              </Link>
-            </h1>
 
             <a className="snipcart-checkout snipcart-summary inline-block float-right my-6 mx-6" href="#" style={{textDecoration: "none"}}>
             <svg xmlns="http://www.w3.org/2000/svg" width="17.5" height="17.5" fill="currentColor" class="bi bi-cart2 float-left my-0.5 mx-0.5" viewBox="0 0 16 16">
@@ -149,18 +144,74 @@ export default function Home() {
   })}
 </div>
 
+
+      <div className="flex place-self-start">
+      <p className="pt-7 font-semibold text-4xl pb-6"> Men's Football Boots </p>
+      </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
+
+  <div class="product-container">
+      <a className="product-container-new"></a>
+      <img src="https://i.postimg.cc/5tNk159G/kampa-balam-grn.png"></img>
+      <h1 className="text-xl pl-4 font-semibold opacity-60">Kampa Balam Neon Green - Men</h1>
+      <p className="text-xl pl-4 opacity-60">Firm-Ground Football Boots</p>
+      <p className="text-xl pl-4 opacity-60 mb-2">$75.00</p>
+                <button className="snipcart-add-item"
+
+            data-item-custom1-name="Size"
+            data-item-custom1-options="5|6[+0.00]|7[+0.00]|8 |9 | 10| 11| 12"
+            data-item--stackable="never"
+            data-item-custom1-value=""
+            data-item-custom2-name="Gift"
+            data-item-custom2-type="checkbox"
+            >
+            Add to Cart
+          </button>
+  </div>
+  
+  <div class="product-container">
+      <a className="product-container-new"></a>
+      <img src="https://cdn.shopify.com/s/files/1/0384/3676/5828/products/1000x500_BAL_NNN_01_ebb92f8c-698f-4d86-b6ea-69cfaf4affc6.jpg?v=1591580953"></img>
+      <h1 className="text-xl pl-4 font-semibold opacity-60">Kampa Balam Neon Orange - Men</h1>
+      <p className="text-xl pl-4 opacity-60">Firm-Ground Football Boots</p>
+      <p className="text-xl pl-4 opacity-60 mb-2">$75.00</p>
+  </div>
+
+  <div class="product-container">
+      <a className="product-container-bestseller"></a>
+      <a className="product-container-sale my-8"></a>
+      <img src="https://cdn.shopify.com/s/files/1/0384/3676/5828/products/1000x500_COS_ARN_01_47565fed-dc86-4c43-a472-e9ffc3bd57f1.jpg?v=1592539650"></img>
+      <h1 className="text-xl pl-4 font-semibold opacity-60">Kampa Cosmos Blue - Men</h1>
+      <p className="text-xl pl-4 opacity-60">Firm-Ground Football Boots</p>
+      <p className="text-xl pl-4 opacity-60 mb-2">$65.00</p>
+  </div>
+
+  <div class="product-container">
+      <img src="https://cdn.shopify.com/s/files/1/0384/3676/5828/products/1000x500_ELI_NB_01_a7c98175-f425-4ad3-b7a8-81e3fd0b00b0.jpg?v=1592541260"></img>
+      <h1 className="text-xl pl-4 font-semibold opacity-60">Kampa Elite Black - Men</h1>
+      <p className="text-xl pl-4 opacity-60">Firm-Ground Football Boots</p>
+      <p className="text-xl pl-4 opacity-60 mb-2">$75.00</p>
+  </div>
+
+  <div class="product-container">
+      <img src="https://cdn.shopify.com/s/files/1/0384/3676/5828/products/1000x500_ELI_NB_TURF_01.jpg?v=1589166870"></img>
+      <h1 className="text-xl pl-4 font-semibold opacity-60">Kampa Elite Black Turf - Men</h1>
+      <p className="text-xl pl-4 opacity-60">Turf Football Boots</p>
+      <p className="text-xl pl-4 opacity-60 mb-2">$65.00</p>
+  </div>
+
+  <div class="product-container">
+      <a className="product-container-soldout"></a>
+      <img src="https://cdn.shopify.com/s/files/1/0384/3676/5828/products/Viper04.jpg?v=1600177558"></img>
+      <h1 className="text-xl pl-4 font-semibold opacity-60">Kampa Viper Neon - Men</h1>
+      <p className="text-xl pl-4 opacity-60">Firm-Ground Football Boots</p>
+      <p className="text-xl pl-4 opacity-60 mb-2">$55.00</p>
+  </div>
+  
+</div>
+
 <img src="https://cdn.shopify.com/s/files/1/0384/3676/5828/files/kampa_portada2.jpg?v=1611830947" className='pt-5' style={{width: '2000px', height: '800px', objectFit:'cover'}}></img>
-
-
-<button class="snipcart-add-item"
-  data-item-id="starry-night"
-  data-item-price="79.99"
-  data-item-url="/paintings/starry-night"
-  data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
-  data-item-image="https://cdn.shopify.com/s/files/1/0384/3676/5828/products/Viper04.jpg?v=1600177558"
-  data-item-name="The Starry Night">
-  Add to cart
-</button>
 
 
 <img src="https://pbs.twimg.com/media/CYoD41KUoAAvEXM?format=jpg&name=4096x4096" className='pt-5' style={{width: '2000px', height: '800px', objectFit:'cover'}}></img>
@@ -174,8 +225,9 @@ export default function Home() {
       </div>
       </footer>
       </body>
+      
       <script async src="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.js" />
-      <div hidden id="snipcart" data-api-key="YTZkNjk1MmEtMDhkNC00ODE3LTkyZjctZDY4NjY0MzY0ZDQ4NjM3NzU5MDI4Mjg4Mzc3NTg4" />
+      <div hidden id="snipcart" data-api-key="ZGFmMWMzNjMtY2NhNC00MzRiLThjMDQtMDBhYTZkYzEzZDA5NjM5MTI0ODA3MDAzMTIwNzQ2" />
       
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
